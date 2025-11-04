@@ -1,6 +1,6 @@
-CFLAGS=-c -g -Wall -Werror
+CFLAGS=-c -g -Wall -Werror -lrt
 CC=gcc
-
+EXECUTABLES=info pinfo finfo pmod
 all: info pinfo finfo pmod
 
 info: info.o
