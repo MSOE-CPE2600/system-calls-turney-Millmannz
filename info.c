@@ -1,3 +1,4 @@
+
 /**
  * Filename: info.c
  * Assignment: Lab9
@@ -53,5 +54,5 @@
     printf("Total RAM available: %llu\n", total_bytes);
     printf("Total free RAM available: %llu\n", free_bytes);
 
-    return 0;
- }
+return 0;
+}

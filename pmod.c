@@ -1,8 +1,10 @@
+
 /**
  * Filename: pmod.c
  * Assignment: Lab9
  * Course: CPE 2600 112
  */
+
 
 #define _GNU_SOURCE
 #include <stdio.h>
@@ -33,5 +35,5 @@ int main(void) {
     nanosleep(&req, NULL);
 
     printf("Goodbye from process %d!\n", getpid());
-    return 0;
+return 0;
 }

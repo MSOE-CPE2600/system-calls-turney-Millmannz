@@ -1,3 +1,4 @@
+
 /**
  * Filename: pinfo.c
  * Assignment: Lab9
@@ -51,5 +52,5 @@ int main(int argc, char *argv[]) {
     printf("Priority (nice):   %d\n", priority);
     printf("Scheduling policy: %s\n", sched_name);
 
-    return 0;
+return 0;
 }

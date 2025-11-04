@@ -8,6 +8,7 @@
 #include <sys/stat.h>
 #include <unistd.h>
 
+
 int main(int argc, char *argv[]) {
     if (argc != 2) {
         fprintf(stderr, "Usage: %s <path>\n", argv[0]);
@@ -40,5 +41,5 @@ int main(int argc, char *argv[]) {
     else
         printf("Type: Unknown\n");
 
-    return 0;
+return 0;
 }
